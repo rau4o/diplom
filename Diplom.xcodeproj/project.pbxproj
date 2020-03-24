@@ -13,6 +13,12 @@
 		AE5DA6AD2411164E0007DBED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DA6AB2411164E0007DBED /* Main.storyboard */; };
 		AE5DA6AF241116500007DBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5DA6AE241116500007DBED /* Assets.xcassets */; };
 		AE5DA6B2241116500007DBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DA6B0241116500007DBED /* LaunchScreen.storyboard */; };
+		AE5DA6BA241116C90007DBED /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6B9241116C90007DBED /* MainPageViewController.swift */; };
+		AE5DA6C1241134DB0007DBED /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6C0241134DB0007DBED /* CardViewController.swift */; };
+		AE5DA6C32411363F0007DBED /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6C22411363F0007DBED /* Card.swift */; };
+		AE9EF19424123D900006C5AF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EF19324123D900006C5AF /* UIColor+Extension.swift */; };
+		AE9EF196241251DD0006C5AF /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EF195241251DD0006C5AF /* FirstVC.swift */; };
+		AE9EF198241257270006C5AF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EF197241257270006C5AF /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AE5DA6AE241116500007DBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5DA6B1241116500007DBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5DA6B3241116500007DBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5DA6B9241116C90007DBED /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		AE5DA6C0241134DB0007DBED /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		AE5DA6C22411363F0007DBED /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AE9EF19324123D900006C5AF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AE9EF195241251DD0006C5AF /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		AE9EF197241257270006C5AF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,9 @@
 		AE5DA6A42411164E0007DBED /* Diplom */ = {
 			isa = PBXGroup;
 			children = (
+				AE9EF19224123D770006C5AF /* Constants */,
+				AE5DA6C22411363F0007DBED /* Card.swift */,
+				AE5DA6BF241134BD0007DBED /* VC */,
 				AE5DA6A52411164E0007DBED /* AppDelegate.swift */,
 				AE5DA6A72411164E0007DBED /* SceneDelegate.swift */,
 				AE5DA6A92411164E0007DBED /* ViewController.swift */,
@@ -65,6 +80,25 @@
 				AE5DA6B3241116500007DBED /* Info.plist */,
 			);
 			path = Diplom;
+			sourceTree = "<group>";
+		};
+		AE5DA6BF241134BD0007DBED /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DA6B9241116C90007DBED /* MainPageViewController.swift */,
+				AE5DA6C0241134DB0007DBED /* CardViewController.swift */,
+				AE9EF195241251DD0006C5AF /* FirstVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		AE9EF19224123D770006C5AF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AE9EF19324123D900006C5AF /* UIColor+Extension.swift */,
+				AE9EF197241257270006C5AF /* UIView+Extension.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9EF19424123D900006C5AF /* UIColor+Extension.swift in Sources */,
+				AE9EF196241251DD0006C5AF /* FirstVC.swift in Sources */,
+				AE5DA6BA241116C90007DBED /* MainPageViewController.swift in Sources */,
+				AE9EF198241257270006C5AF /* UIView+Extension.swift in Sources */,
+				AE5DA6C32411363F0007DBED /* Card.swift in Sources */,
 				AE5DA6AA2411164E0007DBED /* ViewController.swift in Sources */,
 				AE5DA6A62411164E0007DBED /* AppDelegate.swift in Sources */,
+				AE5DA6C1241134DB0007DBED /* CardViewController.swift in Sources */,
 				AE5DA6A82411164E0007DBED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
