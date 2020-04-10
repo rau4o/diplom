@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE113E12242BA0CB00892653 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE113E11242BA0CB00892653 /* MainCollectionViewController.swift */; };
+		AE113E14242BA5C900892653 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE113E13242BA5C900892653 /* MyCollectionViewCell.swift */; };
+		AE113E182432152500892653 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE113E172432152500892653 /* UPCarouselFlowLayout.swift */; };
 		AE5DA6A62411164E0007DBED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6A52411164E0007DBED /* AppDelegate.swift */; };
 		AE5DA6A82411164E0007DBED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6A72411164E0007DBED /* SceneDelegate.swift */; };
 		AE5DA6AA2411164E0007DBED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DA6A92411164E0007DBED /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE113E11242BA0CB00892653 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		AE113E13242BA5C900892653 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE113E172432152500892653 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		AE5DA6A22411164E0007DBED /* Diplom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diplom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5DA6A52411164E0007DBED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5DA6A72411164E0007DBED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE113E10242BA06600892653 /* VCCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AE9EF195241251DD0006C5AF /* FirstVC.swift */,
+				AE113E11242BA0CB00892653 /* MainCollectionViewController.swift */,
+				AE113E13242BA5C900892653 /* MyCollectionViewCell.swift */,
+				AE113E172432152500892653 /* UPCarouselFlowLayout.swift */,
+			);
+			path = VCCollectionView;
+			sourceTree = "<group>";
+		};
 		AE5DA6992411164E0007DBED = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +88,14 @@
 				AE9EF19224123D770006C5AF /* Constants */,
 				AE5DA6C22411363F0007DBED /* Card.swift */,
 				AE5DA6BF241134BD0007DBED /* VC */,
-				AE5DA6A52411164E0007DBED /* AppDelegate.swift */,
+				AE113E10242BA06600892653 /* VCCollectionView */,
 				AE5DA6A72411164E0007DBED /* SceneDelegate.swift */,
 				AE5DA6A92411164E0007DBED /* ViewController.swift */,
 				AE5DA6AB2411164E0007DBED /* Main.storyboard */,
 				AE5DA6AE241116500007DBED /* Assets.xcassets */,
 				AE5DA6B0241116500007DBED /* LaunchScreen.storyboard */,
 				AE5DA6B3241116500007DBED /* Info.plist */,
+				AE5DA6A52411164E0007DBED /* AppDelegate.swift */,
 			);
 			path = Diplom;
 			sourceTree = "<group>";
@@ -87,7 +105,6 @@
 			children = (
 				AE5DA6B9241116C90007DBED /* MainPageViewController.swift */,
 				AE5DA6C0241134DB0007DBED /* CardViewController.swift */,
-				AE9EF195241251DD0006C5AF /* FirstVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -172,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE113E14242BA5C900892653 /* MyCollectionViewCell.swift in Sources */,
 				AE9EF19424123D900006C5AF /* UIColor+Extension.swift in Sources */,
+				AE113E182432152500892653 /* UPCarouselFlowLayout.swift in Sources */,
+				AE113E12242BA0CB00892653 /* MainCollectionViewController.swift in Sources */,
 				AE9EF196241251DD0006C5AF /* FirstVC.swift in Sources */,
 				AE5DA6BA241116C90007DBED /* MainPageViewController.swift in Sources */,
 				AE9EF198241257270006C5AF /* UIView+Extension.swift in Sources */,

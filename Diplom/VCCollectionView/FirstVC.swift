@@ -42,7 +42,7 @@ class FirstVC: UIViewController {
     // MARK: - Selectors
     
     @objc func handleGo() {
-        let vc = MainPageViewController()
+        let vc = MainCollectionViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
